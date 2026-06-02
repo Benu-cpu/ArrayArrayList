@@ -25,12 +25,12 @@ public class LatihanMandiri {
             }
         }
         
-        System.out.println("======= Latihan Mandiri 1 =======");
+        System.out.println("======= Latihan Mandiri 1.1 =======");
         System.out.println("Suhu Tertinggi: " + Max + " Celcius");
         System.out.println("Suhu Terendah: " + Min + " Celcius");
         System.out.print("\n");
         
-        System.out.println("======= Latihan Mandiri 2 =======");  
+        System.out.println("======= Latihan Mandiri 1.2 =======");  
         String[] hari = {"Senin", "Selasa", "Rabu", "Kamis", "Jum'at"};
             for (String h : hari) {
             if (h.length() > 5) {
@@ -39,7 +39,7 @@ public class LatihanMandiri {
             }
         System.out.print("\n");
         
-        System.out.println("======= Latihan Mandiri 3 ======="); 
+        System.out.println("======= Latihan Mandiri 1.3 ======="); 
         int[] angka = {4, 8, 15, 16, 23, 42}; 
         int jumlahGenap = 0;
         System.out.print("Angka genap yang ditemukan: ");
