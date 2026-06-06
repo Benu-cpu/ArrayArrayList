@@ -18,7 +18,7 @@ public class KelasKuliah {
         }
         double total = 0;
         for (Mahasiswa mhs : daftarMhs) {
-            total = total + mhs.getNilai(); // penjumlahan manual biasa
+            total = total + mhs.getNilai();
         }
         return total / daftarMhs.size();
     }
